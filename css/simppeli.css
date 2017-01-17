@@ -21,7 +21,10 @@ height: 100vh;
 width: 100%;
 margin: 0 auto;
 padding: inherit;
-
+}
+.projects
+{
+	
 }
 
 .logo{
@@ -34,3 +37,63 @@ padding: inherit;
 .kuva{
 
 }
+.btn  {
+
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 35px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  font-family: 'VT323', monospace;
+}
+#projectbutton
+{
+	  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+}
+#projectbutton:hover{
+	  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+#personbutton
+{
+	background:#689F38;
+	margin-left:20px;
+}
+
+#personbutton:hover
+{
+	background: #7CB342;
+}
+
+#contact
+{
+	background:#009688;
+	margin-left:20px;
+}
+
+#contact:hover
+{
+	background:#26A69A;
+}
+
+.btns
+{
+	width:100%;
+	display:inline-block;
+	text-align:center;
+}
+
+

@@ -25,9 +25,9 @@
 		<div class="btns">
 		<a class="btn" id="projectbutton" href="#projects" >Projects
 		</a>
-		<a class="btn" id="personbutton" href="#" >Person
+		<a class="btn" id="personbutton" href="#person" >Person
 		</a>
-		<a class="btn" id="contact" href="#">Contact</a>
+		<a class="btn" id="contactbtn" href="#contact">Contact</a>
 		</div>
     </div>
 
@@ -35,7 +35,7 @@
     <h1>Here you can see some of my projects</h2>
     <br>
     <h2>Password Generator</h2>
-    <a href="../img/pw-generator.png" data-lightbox="pw-generator" ><img src="../img/pw-generator.png" height="240" width="200"/></a>
+    <a href="../img/pw-generator.png" data-lightbox="pw-generator" ><img src="../img/pw-generator.png" height="180" width="160"/></a>
 
 
 	</div>
@@ -43,6 +43,58 @@
   <div id="person">
     <h1>Me</h1>
     <p>I'm currently a student at Turku University of Applied Sciences, majoring at ICT. I am working towards becoming a software developer and studying programming with classes and creating my own projects on my free time. I've come to know programming languages such as C#, Java, Python and Javascript. I'm also familiar with relational databases like MySQL and SQLite. For version control I favour Git. I have also made this website on my own using HTML, CSS and Javascript. </p>
+
+  </div>
+
+  <div id="contact">
+    <h1>Contact Me</h1>
+
+    <form name="htmlform" method="post" action="html_form_send.php">
+<table width="450px">
+</tr>
+<tr>
+ <td valign="top">
+  <label for="first_name">First Name</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="first_name" maxlength="50" size="30">
+ </td>
+</tr>
+
+<tr>
+ <td valign="top"">
+  <label for="last_name">Last Name</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="last_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="email">Email Address</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="email" maxlength="80" size="30">
+ </td>
+</tr>
+
+<tr>
+ <td valign="top">
+  <label for="comments">Message</label>
+ </td>
+ <td valign="top">
+  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+ </td>
+</tr>
+
+<tr>
+ <td colspan="2" style="text-align:center">
+   <input type="submit" value="Submit">
+ </td>
+</tr>
+</table>
+</form>
+
 
   </div>
 

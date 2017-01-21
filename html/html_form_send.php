@@ -2,7 +2,7 @@
 if(isset($_POST['email'])) {
 
     // CHANGE THE TWO LINES BELOW
-    $email_to = "you@yourdomain.com";
+    $email_to = "wikke93@gmail.com";
 
     $email_subject = "website html form submissions";
 
@@ -20,7 +20,6 @@ if(isset($_POST['email'])) {
     if(!isset($_POST['first_name']) ||
         !isset($_POST['last_name']) ||
         !isset($_POST['email']) ||
-        !isset($_POST['telephone']) ||
         !isset($_POST['comments'])) {
         died('We are sorry, but there appears to be a problem with the form you submitted.');
     }
@@ -28,7 +27,6 @@ if(isset($_POST['email'])) {
     $first_name = $_POST['first_name']; // required
     $last_name = $_POST['last_name']; // required
     $email_from = $_POST['email']; // required
-    $telephone = $_POST['telephone']; // not required
     $comments = $_POST['comments']; // required
 
     $error_message = "";

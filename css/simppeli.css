@@ -38,7 +38,7 @@ body{
 height: 100vh;
 width: 100%;
 margin: 0 auto;
-padding: inherit;
+padding-top: 100px;
 }
 #projects
 {
@@ -152,8 +152,12 @@ a.back-to-top {
 	z-index: 999;
 	right: 20px;
 	bottom: 20px;
-  background: #27AE61 url("../img/up-arrow.png") no-repeat center 43%;
+  background: #26a69a url("../img/up-arrow.png") no-repeat center 43%;
   	-webkit-border-radius: 30px;
   	-moz-border-radius: 30px;
   	border-radius: 30px;
+}
+
+a.back-to-top:hover{
+  background: #4db6ac url("../img/up-arrow.png") no-repeat center 43%;
 }

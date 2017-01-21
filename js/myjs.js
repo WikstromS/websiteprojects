@@ -30,3 +30,5 @@ $('a.back-to-top').click(function() {
 	}, 700);
 	return false;
 });
+
+$(document).ready(function(){$("body").hide().fadeIn(1200);});

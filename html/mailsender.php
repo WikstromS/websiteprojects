@@ -20,3 +20,12 @@ $emsg .= "viesti : \n \n";
 $emsg .= $message; 
 
 $emailto = "santeri.wikstrom@edu.turkuamk.fi";
+
+$from = "TÄHÄN SERVUN OSOITE?"
+$headers .= 'From: ' . $from . "\r\n";
+
+@mail($emailto, $esubject, $emsg, $headers);
+
+exit;
+
+?>

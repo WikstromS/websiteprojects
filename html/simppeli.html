@@ -57,9 +57,27 @@
         </div>
 
         <div id="contact">
-            <h1>Contact Me</h1>
 
-
+            <form action="mailsender.php" method="POST">
+                <h1>Contact Me</h1>
+                <label>Name</label>
+                <br>
+                <input type="text" name="sender" required="required">
+                <br>
+                <label>E-Mail</label>
+                <br>
+                <input type="text" name="email" required="required">
+                <br>
+                <label>Phone</label>
+                <br>
+                <input type="text" name="phone" required="required">
+                <br>
+                <label>Message</label>
+                <br>
+                <textarea name="message" cols="40" rows="4" required="required"></textarea>
+                <br>
+                <input type="submit" value="Send">
+            </form>
 
 
         </div>

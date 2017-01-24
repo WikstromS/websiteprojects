@@ -81,7 +81,10 @@ body {
     text-align: center;
 }
 
-.kuva {}
+.kuva {
+    max-width: 100%;
+    height: auto;
+}
 
 .btn {
     -webkit-border-radius: 28;
@@ -166,6 +169,7 @@ a.back-to-top {
 a.back-to-top:hover {
     background: #4db6ac url("../img/up-arrow.png") no-repeat center 43%;
 }
+
 #github {
     border: 1px solid black;
 }
@@ -174,8 +178,13 @@ a.back-to-top:hover {
     .btnscontainer {
         display: inline-block;
     }
-
     .linkblock {
         margin: 2% 0;
+    }
+    .kuva {
+        display: block;
+        margin: 0 auto;
+        height: 100%;
+        width: auto;
     }
 }

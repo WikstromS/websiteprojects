@@ -187,4 +187,13 @@ a.back-to-top:hover {
         height: 100%;
         width: auto;
     }
+    #person {
+        height: auto;
+    }
+    #projects {
+        height: auto;
+    }
+    .ylin {
+        height: auto;
+    }
 }

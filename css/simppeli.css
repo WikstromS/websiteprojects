@@ -156,3 +156,9 @@ a.back-to-top {
 a.back-to-top:hover {
     background: #4db6ac url("../img/up-arrow.png") no-repeat center 43%;
 }
+
+@media screen and (max-width: 490px) {
+    .btns {
+        display: inline-block;
+    }
+}

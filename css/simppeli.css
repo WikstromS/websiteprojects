@@ -116,7 +116,6 @@ body {
 
 #personbutton {
     background: #689F38;
-    margin-left: 20px;
 }
 
 #personbutton:hover {
@@ -125,7 +124,6 @@ body {
 
 #contactbtn {
     background: #009688;
-    margin-left: 20px;
 }
 
 #contactbtn:hover {
@@ -134,7 +132,19 @@ body {
 
 .btns {
     width: 100%;
-    display: inline-block;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.btnscontainer {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.linkblock {
+    width: 100%;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -160,8 +170,12 @@ a.back-to-top:hover {
     border: 1px solid black;
 }
 
-@media screen and (max-width: 490px) {
-    .btns {
+@media screen and (max-width: 768px) {
+    .btnscontainer {
         display: inline-block;
+    }
+
+    .linkblock {
+        margin: 2% 0;
     }
 }

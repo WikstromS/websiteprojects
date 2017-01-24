@@ -26,6 +26,7 @@ $headers .= 'From: ' . $from . "\r\n";
 
 @mail($emailto, $esubject, $emsg, $headers);
 
+header("Location:santeriw.fi/index.html);
 exit;
 
 ?>
